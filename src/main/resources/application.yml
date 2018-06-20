@@ -17,3 +17,6 @@ zuul:
     supplier-commodity:
       path: /supplier/commodity/**
       serviceId: supplier-commodity
+    supplier-user:
+      path: /supplier/user/**
+      serviceId: supplier-user
