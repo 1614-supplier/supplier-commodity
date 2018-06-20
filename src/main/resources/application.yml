@@ -1,0 +1,19 @@
+server:
+  port: 8763
+spring:
+  application:
+    name: supplier-user
+##·şÎñ×¢²á
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+##Íø¹ØÅäÖÃ
+zuul:
+  routes:
+    supplier-order:
+      path: /supplier/order/**
+      serviceId: supplier-order
+    supplier-commodity:
+      path: /supplier/commodity/**
+      serviceId: supplier-commodity
