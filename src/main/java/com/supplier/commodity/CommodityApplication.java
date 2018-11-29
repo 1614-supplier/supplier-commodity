@@ -10,9 +10,9 @@ import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
 @EnableEurekaClient
 @SpringBootApplication
 @EnableFeignClients(basePackages = "com.supplier.api")
-public class SupplierUserApplication {
+public class CommodityApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SupplierUserApplication.class, args);
+		SpringApplication.run(CommodityApplication.class, args);
 	}
 }
