@@ -2,13 +2,13 @@ server:
   port: 8763
 spring:
   application:
-    name: supplier-user
-##·þÎñ×¢²á
+    name: supplier-commodity
+##ï¿½ï¿½ï¿½ï¿½×¢ï¿½ï¿½
 eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
-##Íø¹ØÅäÖÃ
+##ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 zuul:
   routes:
     supplier-order:
@@ -18,5 +18,5 @@ zuul:
       path: /supplier/commodity/**
       serviceId: supplier-commodity
     supplier-user:
-      path: /supplier/user/**
-      serviceId: supplier-user
+      path: /supplier/commodity/**
+      serviceId: supplier-commodity

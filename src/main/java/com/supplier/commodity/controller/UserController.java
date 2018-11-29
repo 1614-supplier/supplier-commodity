@@ -1,4 +1,4 @@
-package com.supplier.user.controller;
+package com.supplier.commodity.controller;
 
 import com.supplier.api.commodity.itf.CommodityServiceApi;
 import org.springframework.beans.factory.annotation.Autowired;
