@@ -1,3 +1,4 @@
-# supplier-user
-1.此项目为zuul网关控制端
-2.用户相关的服务
+# supplier-commodity
+1.此项目为商品服务端
+2.商品相关服务
+网关服务、权限鉴定
